@@ -8,9 +8,8 @@ function hitung() {
         case 'tambah':
             result = operand1 + operand2;
             break;
-            } else {
-                result = "Tidak bisa dibagi oleh nol!";
-            }
+        case 'kurang':
+            result = operand1 - operand2;
             break;
         default:
             result = "Operasi tidak valid!";
