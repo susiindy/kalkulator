@@ -21,6 +21,9 @@ function hitung() {
                 result = "Tidak bisa dibagi oleh nol!";
             }
             break;
+        case 'modulus':
+            result = operand1 % operand2;
+            break;
         default:
             result = "Operasi tidak valid!";
     }
