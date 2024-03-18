@@ -14,6 +14,13 @@ function hitung() {
         case 'kali':
             result = operand1 * operand2;
             break;
+        case 'bagi':
+            if(operand2 !== 0) {
+                result = operand1 / operand2;
+            } else {
+                result = "Tidak bisa dibagi oleh nol!";
+            }
+            break;
         default:
             result = "Operasi tidak valid!";
     }
