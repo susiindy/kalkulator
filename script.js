@@ -11,6 +11,9 @@ function hitung() {
         case 'kurang':
             result = operand1 - operand2;
             break;
+        case 'kali':
+            result = operand1 * operand2;
+            break;
         default:
             result = "Operasi tidak valid!";
     }
